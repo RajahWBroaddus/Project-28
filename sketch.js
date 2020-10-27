@@ -102,8 +102,8 @@ function detectcollision(stone, mango) {
         Matter.Body.setStatic(mango.body, false);
     }
 */
-        if (stone.position.x - mango.position.x < stone.width / 2 + mango.width / 2 &&
+        /*if (stone.position.x - mango.position.x < stone.width / 2 + mango.width / 2 &&
             mango.position.x - stone.position.x < stone.width / 2 + mango.width / 2 &&
             stone.position.y - mango.position.y < stone.height / 2 + mango.height / 2 &&
-            mango.position.y - stone.y < stone.height / 2 + mango.radius / 2) { mango }
+            mango.position.y - stone.y < stone.height / 2 + mango.radius / 2) { mango }*/
 }
